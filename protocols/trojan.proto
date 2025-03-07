@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package trojan;
+
+// Define the Trojan service
+service TrojanService {
+  // Basic echo request/response for testing
+  rpc Echo (EchoRequest) returns (EchoResponse) {}
+  
+  // Stream for actual data transfer
+  rpc StreamData (stream DataRequest) returns (stream DataResponse) {}
+}
+
+// Echo messages for testing connectivity
+message EchoRequest {
+  string message = 1;
+}
+
+message EchoResponse {
+  string message = 1;
+}
+
+// Data transfer messages
+message DataRequest {
+  bytes data = 1;
+}
+
+message DataResponse {
+  bytes data = 1;
+}
