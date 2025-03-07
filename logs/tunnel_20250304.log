@@ -1,0 +1,517 @@
+2025-03-04 23:26:59,280 - INFO - Service Status: SSHHandler: 0/0 active, V2RayHandler: 0/0 active, TrojanHandler: 0/0 active
+2025-03-04 23:26:59,286 - INFO - System stats - CPU: 55.7%, Memory: 80.0%, Network I/O: 813.62KB/4267.07KB
+2025-03-04 23:26:59,292 - INFO - OpenSSH server started on port 2222
+2025-03-04 23:26:59,293 - INFO - VMESS WS TLS started on port 8444
+2025-03-04 23:26:59,293 - INFO - Trojan WS TLS started on port 8446
+2025-03-04 23:26:59,318 - INFO - Dropbear server started on port 2244
+2025-03-04 23:26:59,318 - INFO - VMESS WS started on port 8071
+2025-03-04 23:26:59,319 - INFO - Trojan WS started on port 8073
+2025-03-04 23:26:59,328 - INFO - Trojan gRPC started on port 8447
+2025-03-04 23:26:59,328 - INFO - All Trojan services started - Ports: WS-TLS:8446, WS:8073, gRPC:8447
+2025-03-04 23:26:59,342 - INFO - SSH WebSocket server started on port 8070
+2025-03-04 23:26:59,342 - INFO - VLESS WS TLS started on port 8445
+2025-03-04 23:26:59,342 - INFO - SSH UDP server started on port 1194
+2025-03-04 23:26:59,348 - INFO - VLESS WS started on port 8072
+2025-03-04 23:26:59,349 - INFO - All V2Ray services started - Ports: VMESS-WS-TLS:8444, VMESS-WS:8071, VLESS-WS-TLS:8445, VLESS-WS:8072
+2025-03-04 23:26:59,359 - INFO - SSH SSL WebSocket server started on port 8443
+2025-03-04 23:26:59,359 - INFO - All SSH services started - Ports: OpenSSH:2222, Dropbear:2244, WS:8070, UDP:1194, SSL-WS:8443
+2025-03-04 23:27:02,226 - INFO - New OpenSSH connection from ('172.31.128.102', 43576)
+2025-03-04 23:27:02,227 - INFO - Closed OpenSSH connection from ('172.31.128.102', 43576)
+2025-03-04 23:27:02,230 - INFO - New OpenSSH connection from ('172.31.128.102', 43578)
+2025-03-04 23:27:02,231 - INFO - Closed OpenSSH connection from ('172.31.128.102', 43578)
+2025-03-04 23:27:02,234 - INFO - New OpenSSH connection from ('172.31.128.102', 43594)
+2025-03-04 23:27:02,235 - INFO - Closed OpenSSH connection from ('172.31.128.102', 43594)
+2025-03-04 23:27:02,237 - INFO - New OpenSSH connection from ('172.31.128.102', 43608)
+2025-03-04 23:27:02,238 - INFO - Closed OpenSSH connection from ('172.31.128.102', 43608)
+2025-03-04 23:27:04,288 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:04,288 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:04,288 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:04,289 - INFO - System stats - CPU: 65.8%, Memory: 80.4%, Network I/O: 850.04KB/4300.54KB
+2025-03-04 23:27:09,294 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:09,294 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:09,294 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:09,295 - INFO - System stats - CPU: 58.4%, Memory: 80.4%, Network I/O: 851.97KB/4301.86KB
+2025-03-04 23:27:14,300 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:14,300 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:14,300 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:14,301 - INFO - System stats - CPU: 73.0%, Memory: 81.3%, Network I/O: 854.58KB/4303.31KB
+2025-03-04 23:27:19,306 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:19,306 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:19,306 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:19,307 - INFO - System stats - CPU: 77.1%, Memory: 82.3%, Network I/O: 856.87KB/4338.99KB
+2025-03-04 23:27:24,312 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:24,312 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:24,312 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:24,313 - INFO - System stats - CPU: 61.8%, Memory: 83.1%, Network I/O: 859.05KB/4340.66KB
+2025-03-04 23:27:29,318 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:29,318 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:29,318 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:29,319 - INFO - System stats - CPU: 73.2%, Memory: 83.7%, Network I/O: 861.03KB/4375.95KB
+2025-03-04 23:27:34,324 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:34,324 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:34,324 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:34,325 - INFO - System stats - CPU: 78.4%, Memory: 82.8%, Network I/O: 863.20KB/4411.44KB
+2025-03-04 23:27:39,330 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:39,331 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:39,331 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:39,331 - INFO - System stats - CPU: 81.5%, Memory: 82.4%, Network I/O: 865.32KB/4446.86KB
+2025-03-04 23:27:44,336 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:44,336 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:44,336 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:44,337 - INFO - System stats - CPU: 71.4%, Memory: 82.5%, Network I/O: 868.45KB/4483.46KB
+2025-03-04 23:27:49,342 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:49,343 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:49,343 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:49,343 - INFO - System stats - CPU: 66.7%, Memory: 82.5%, Network I/O: 873.59KB/4486.87KB
+2025-03-04 23:27:54,348 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:54,349 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:54,349 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:54,349 - INFO - System stats - CPU: 57.2%, Memory: 82.7%, Network I/O: 875.41KB/4488.19KB
+2025-03-04 23:27:59,354 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:27:59,355 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:27:59,355 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:27:59,355 - INFO - System stats - CPU: 50.3%, Memory: 82.8%, Network I/O: 877.22KB/4489.52KB
+2025-03-04 23:28:04,361 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:04,361 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:04,361 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:04,362 - INFO - System stats - CPU: 62.0%, Memory: 83.1%, Network I/O: 879.83KB/4490.93KB
+2025-03-04 23:28:04,374 - INFO - New OpenSSH connection from ('172.31.128.102', 36258)
+2025-03-04 23:28:04,376 - INFO - Closed OpenSSH connection from ('172.31.128.102', 36258)
+2025-03-04 23:28:04,378 - INFO - New OpenSSH connection from ('172.31.128.102', 36272)
+2025-03-04 23:28:04,380 - INFO - Closed OpenSSH connection from ('172.31.128.102', 36272)
+2025-03-04 23:28:04,394 - INFO - New OpenSSH connection from ('172.31.128.102', 36274)
+2025-03-04 23:28:04,395 - INFO - Closed OpenSSH connection from ('172.31.128.102', 36274)
+2025-03-04 23:28:04,398 - INFO - New OpenSSH connection from ('172.31.128.102', 36286)
+2025-03-04 23:28:04,401 - INFO - Closed OpenSSH connection from ('172.31.128.102', 36286)
+2025-03-04 23:28:09,367 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:09,367 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:09,367 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:09,368 - INFO - System stats - CPU: 73.1%, Memory: 83.4%, Network I/O: 892.37KB/4502.91KB
+2025-03-04 23:28:14,373 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:14,374 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:14,374 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:14,374 - INFO - System stats - CPU: 75.3%, Memory: 83.5%, Network I/O: 894.38KB/4538.29KB
+2025-03-04 23:28:19,380 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:19,380 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:19,380 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:19,381 - INFO - System stats - CPU: 63.7%, Memory: 83.5%, Network I/O: 896.57KB/4573.80KB
+2025-03-04 23:28:24,386 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:24,387 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:24,387 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:24,388 - INFO - System stats - CPU: 45.4%, Memory: 83.1%, Network I/O: 899.37KB/4609.17KB
+2025-03-04 23:28:29,393 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:29,393 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:29,393 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:29,394 - INFO - System stats - CPU: 59.0%, Memory: 82.7%, Network I/O: 902.21KB/4644.59KB
+2025-03-04 23:28:34,399 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:34,399 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:34,399 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:34,400 - INFO - System stats - CPU: 43.6%, Memory: 82.8%, Network I/O: 904.03KB/4645.91KB
+2025-03-04 23:28:39,405 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:39,405 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:39,405 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:39,406 - INFO - System stats - CPU: 44.5%, Memory: 82.7%, Network I/O: 906.57KB/4647.23KB
+2025-03-04 23:28:44,411 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:44,411 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:44,411 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:44,412 - INFO - System stats - CPU: 54.0%, Memory: 82.3%, Network I/O: 909.44KB/4649.76KB
+2025-03-04 23:28:49,417 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:49,417 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:49,417 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:49,418 - INFO - System stats - CPU: 57.6%, Memory: 82.0%, Network I/O: 915.36KB/4653.24KB
+2025-03-04 23:28:54,423 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:54,423 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:54,423 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:54,424 - INFO - System stats - CPU: 47.5%, Memory: 82.3%, Network I/O: 918.01KB/4654.69KB
+2025-03-04 23:28:59,429 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:28:59,429 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:28:59,429 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:28:59,430 - INFO - System stats - CPU: 47.5%, Memory: 82.3%, Network I/O: 919.83KB/4656.02KB
+2025-03-04 23:29:04,435 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:04,435 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:04,435 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:04,436 - INFO - System stats - CPU: 44.3%, Memory: 81.9%, Network I/O: 921.44KB/4657.08KB
+2025-03-04 23:29:06,117 - INFO - New OpenSSH connection from ('172.31.128.102', 37050)
+2025-03-04 23:29:06,118 - INFO - Closed OpenSSH connection from ('172.31.128.102', 37050)
+2025-03-04 23:29:06,120 - INFO - New OpenSSH connection from ('172.31.128.102', 37052)
+2025-03-04 23:29:06,120 - INFO - Closed OpenSSH connection from ('172.31.128.102', 37052)
+2025-03-04 23:29:06,122 - INFO - New OpenSSH connection from ('172.31.128.102', 37062)
+2025-03-04 23:29:06,123 - INFO - Closed OpenSSH connection from ('172.31.128.102', 37062)
+2025-03-04 23:29:06,124 - INFO - New OpenSSH connection from ('172.31.128.102', 37064)
+2025-03-04 23:29:06,125 - INFO - Closed OpenSSH connection from ('172.31.128.102', 37064)
+2025-03-04 23:29:09,439 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:09,439 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:09,439 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:09,440 - INFO - System stats - CPU: 48.8%, Memory: 82.1%, Network I/O: 934.18KB/4669.41KB
+2025-03-04 23:29:14,445 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:14,445 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:14,445 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:14,446 - INFO - System stats - CPU: 50.3%, Memory: 82.0%, Network I/O: 937.05KB/4704.92KB
+2025-03-04 23:29:19,451 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:19,451 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:19,451 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:19,452 - INFO - System stats - CPU: 53.7%, Memory: 82.4%, Network I/O: 940.07KB/4740.58KB
+2025-03-04 23:29:24,457 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:24,457 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:24,457 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:24,458 - INFO - System stats - CPU: 43.5%, Memory: 82.5%, Network I/O: 941.88KB/4741.91KB
+2025-03-04 23:29:29,463 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:29,463 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:29,463 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:29,464 - INFO - System stats - CPU: 41.2%, Memory: 82.2%, Network I/O: 943.70KB/4743.23KB
+2025-03-04 23:29:34,469 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:34,469 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:34,469 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:34,470 - INFO - System stats - CPU: 27.6%, Memory: 82.2%, Network I/O: 945.62KB/4744.66KB
+2025-03-04 23:29:39,475 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:39,475 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:39,475 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:39,476 - INFO - System stats - CPU: 38.9%, Memory: 81.4%, Network I/O: 947.34KB/4745.89KB
+2025-03-04 23:29:44,481 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:44,481 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:44,481 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:44,482 - INFO - System stats - CPU: 54.2%, Memory: 81.2%, Network I/O: 950.25KB/4748.55KB
+2025-03-04 23:29:49,487 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:49,487 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:49,487 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:49,488 - INFO - System stats - CPU: 61.5%, Memory: 81.8%, Network I/O: 955.39KB/4752.02KB
+2025-03-04 23:29:54,493 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:54,493 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:54,493 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:54,493 - INFO - System stats - CPU: 44.9%, Memory: 81.8%, Network I/O: 958.25KB/4787.45KB
+2025-03-04 23:29:59,498 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:29:59,499 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:29:59,499 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:29:59,499 - INFO - System stats - CPU: 49.4%, Memory: 81.6%, Network I/O: 960.07KB/4788.78KB
+2025-03-04 23:30:04,505 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:04,505 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:04,505 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:04,505 - INFO - System stats - CPU: 53.6%, Memory: 81.1%, Network I/O: 963.04KB/4824.31KB
+2025-03-04 23:30:07,610 - INFO - New OpenSSH connection from ('172.31.128.102', 60772)
+2025-03-04 23:30:07,611 - INFO - Closed OpenSSH connection from ('172.31.128.102', 60772)
+2025-03-04 23:30:07,612 - INFO - New OpenSSH connection from ('172.31.128.102', 60776)
+2025-03-04 23:30:07,613 - INFO - Closed OpenSSH connection from ('172.31.128.102', 60776)
+2025-03-04 23:30:07,614 - INFO - New OpenSSH connection from ('172.31.128.102', 60792)
+2025-03-04 23:30:07,615 - INFO - Closed OpenSSH connection from ('172.31.128.102', 60792)
+2025-03-04 23:30:07,616 - INFO - New OpenSSH connection from ('172.31.128.102', 60798)
+2025-03-04 23:30:07,617 - INFO - Closed OpenSSH connection from ('172.31.128.102', 60798)
+2025-03-04 23:30:09,508 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:09,508 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:09,508 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:09,509 - INFO - System stats - CPU: 46.7%, Memory: 81.4%, Network I/O: 980.22KB/4837.91KB
+2025-03-04 23:30:14,514 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:14,514 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:14,514 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:14,515 - INFO - System stats - CPU: 52.3%, Memory: 81.6%, Network I/O: 982.16KB/4839.31KB
+2025-03-04 23:30:19,520 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:19,520 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:19,520 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:19,521 - INFO - System stats - CPU: 46.6%, Memory: 81.7%, Network I/O: 988.98KB/4876.08KB
+2025-03-04 23:30:24,526 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:24,526 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:24,526 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:24,527 - INFO - System stats - CPU: 52.3%, Memory: 82.4%, Network I/O: 990.85KB/4877.33KB
+2025-03-04 23:30:29,532 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:29,532 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:29,533 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:29,533 - INFO - System stats - CPU: 58.5%, Memory: 82.2%, Network I/O: 992.67KB/4878.66KB
+2025-03-04 23:30:34,538 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:34,538 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:34,538 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:34,539 - INFO - System stats - CPU: 35.5%, Memory: 82.0%, Network I/O: 994.89KB/4914.19KB
+2025-03-04 23:30:39,544 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:39,544 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:39,544 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:39,545 - INFO - System stats - CPU: 43.8%, Memory: 81.9%, Network I/O: 996.61KB/4915.41KB
+2025-03-04 23:30:44,550 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:44,550 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:44,550 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:44,551 - INFO - System stats - CPU: 58.9%, Memory: 82.4%, Network I/O: 999.48KB/4918.03KB
+2025-03-04 23:30:49,556 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:49,556 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:49,556 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:49,557 - INFO - System stats - CPU: 49.9%, Memory: 81.9%, Network I/O: 1004.62KB/4921.33KB
+2025-03-04 23:30:54,562 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:54,562 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:54,562 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:54,563 - INFO - System stats - CPU: 67.4%, Memory: 82.3%, Network I/O: 1007.48KB/4956.76KB
+2025-03-04 23:30:59,569 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:30:59,569 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:30:59,569 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:30:59,569 - INFO - System stats - CPU: 69.8%, Memory: 82.7%, Network I/O: 1009.34KB/4958.21KB
+2025-03-04 23:31:04,575 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:04,575 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:04,575 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:04,576 - INFO - System stats - CPU: 72.7%, Memory: 83.1%, Network I/O: 1012.05KB/4959.76KB
+2025-03-04 23:31:09,248 - INFO - New OpenSSH connection from ('172.31.128.102', 53702)
+2025-03-04 23:31:09,250 - INFO - Closed OpenSSH connection from ('172.31.128.102', 53702)
+2025-03-04 23:31:09,252 - INFO - New OpenSSH connection from ('172.31.128.102', 53716)
+2025-03-04 23:31:09,252 - INFO - Closed OpenSSH connection from ('172.31.128.102', 53716)
+2025-03-04 23:31:09,254 - INFO - New OpenSSH connection from ('172.31.128.102', 53728)
+2025-03-04 23:31:09,255 - INFO - Closed OpenSSH connection from ('172.31.128.102', 53728)
+2025-03-04 23:31:09,257 - INFO - New OpenSSH connection from ('172.31.128.102', 53742)
+2025-03-04 23:31:09,259 - INFO - Closed OpenSSH connection from ('172.31.128.102', 53742)
+2025-03-04 23:31:09,577 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:09,578 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:09,578 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:09,578 - INFO - System stats - CPU: 65.5%, Memory: 84.4%, Network I/O: 1025.52KB/4972.00KB
+2025-03-04 23:31:14,584 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:14,584 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:14,584 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:14,584 - INFO - System stats - CPU: 60.2%, Memory: 84.0%, Network I/O: 1027.24KB/4973.27KB
+2025-03-04 23:31:19,589 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:19,589 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:19,589 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:19,590 - INFO - System stats - CPU: 42.2%, Memory: 84.0%, Network I/O: 1029.96KB/4974.75KB
+2025-03-04 23:31:24,595 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:24,595 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:24,595 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:24,596 - INFO - System stats - CPU: 58.1%, Memory: 84.2%, Network I/O: 1032.54KB/4976.19KB
+2025-03-04 23:31:29,601 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:29,601 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:29,601 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:29,602 - INFO - System stats - CPU: 50.3%, Memory: 84.4%, Network I/O: 1034.15KB/4977.25KB
+2025-03-04 23:31:34,607 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:34,607 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:34,607 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:34,608 - INFO - System stats - CPU: 54.8%, Memory: 84.1%, Network I/O: 1036.86KB/4978.80KB
+2025-03-04 23:31:39,613 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:39,613 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:39,613 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:39,614 - INFO - System stats - CPU: 47.6%, Memory: 84.1%, Network I/O: 1038.68KB/4980.12KB
+2025-03-04 23:31:44,619 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:44,619 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:44,619 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:44,620 - INFO - System stats - CPU: 65.8%, Memory: 85.5%, Network I/O: 1041.71KB/5016.62KB
+2025-03-04 23:31:49,625 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:49,625 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:49,625 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:49,626 - INFO - System stats - CPU: 73.7%, Memory: 85.9%, Network I/O: 1046.89KB/5020.24KB
+2025-03-04 23:31:54,631 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:54,631 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:54,631 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:54,632 - INFO - System stats - CPU: 47.1%, Memory: 85.1%, Network I/O: 1048.96KB/5055.63KB
+2025-03-04 23:31:59,637 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:31:59,637 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:31:59,637 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:31:59,638 - INFO - System stats - CPU: 50.0%, Memory: 84.7%, Network I/O: 1051.50KB/5056.94KB
+2025-03-04 23:32:04,643 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:04,643 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:04,643 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:04,644 - INFO - System stats - CPU: 60.6%, Memory: 85.4%, Network I/O: 1054.15KB/5058.52KB
+2025-03-04 23:32:09,649 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:09,649 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:09,649 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:09,650 - INFO - System stats - CPU: 61.2%, Memory: 85.6%, Network I/O: 1056.22KB/5093.99KB
+2025-03-04 23:32:10,880 - INFO - New OpenSSH connection from ('172.31.128.102', 45862)
+2025-03-04 23:32:10,883 - INFO - Closed OpenSSH connection from ('172.31.128.102', 45862)
+2025-03-04 23:32:10,885 - INFO - New OpenSSH connection from ('172.31.128.102', 45878)
+2025-03-04 23:32:10,893 - INFO - Closed OpenSSH connection from ('172.31.128.102', 45878)
+2025-03-04 23:32:10,899 - INFO - New OpenSSH connection from ('172.31.128.102', 45880)
+2025-03-04 23:32:10,908 - INFO - Closed OpenSSH connection from ('172.31.128.102', 45880)
+2025-03-04 23:32:10,908 - INFO - New OpenSSH connection from ('172.31.128.102', 45894)
+2025-03-04 23:32:10,909 - INFO - Closed OpenSSH connection from ('172.31.128.102', 45894)
+2025-03-04 23:32:14,654 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:14,654 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:14,654 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:14,655 - INFO - System stats - CPU: 82.6%, Memory: 86.5%, Network I/O: 1069.64KB/5106.18KB
+2025-03-04 23:32:19,660 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:19,660 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:19,660 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:19,661 - INFO - System stats - CPU: 68.1%, Memory: 86.2%, Network I/O: 1071.57KB/5107.66KB
+2025-03-04 23:32:24,666 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:24,666 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:24,666 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:24,667 - INFO - System stats - CPU: 74.6%, Memory: 86.5%, Network I/O: 1073.65KB/5143.13KB
+2025-03-04 23:32:29,672 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:29,672 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:29,672 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:29,673 - INFO - System stats - CPU: 57.5%, Memory: 85.7%, Network I/O: 1075.47KB/5144.46KB
+2025-03-04 23:32:34,678 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:34,679 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:34,679 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:34,679 - INFO - System stats - CPU: 44.6%, Memory: 85.8%, Network I/O: 1078.37KB/5179.93KB
+2025-03-04 23:32:39,685 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:39,685 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:39,685 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:39,685 - INFO - System stats - CPU: 81.1%, Memory: 86.2%, Network I/O: 1080.55KB/5215.59KB
+2025-03-04 23:32:44,691 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:44,691 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:44,691 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:44,692 - INFO - System stats - CPU: 76.8%, Memory: 86.6%, Network I/O: 1083.68KB/5252.27KB
+2025-03-04 23:32:49,697 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:49,697 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:49,697 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:49,698 - INFO - System stats - CPU: 55.3%, Memory: 86.6%, Network I/O: 1088.72KB/5255.63KB
+2025-03-04 23:32:54,703 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:54,703 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:54,704 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:54,704 - INFO - System stats - CPU: 64.5%, Memory: 86.7%, Network I/O: 1091.26KB/5256.95KB
+2025-03-04 23:32:59,709 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:32:59,709 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:32:59,709 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:32:59,710 - INFO - System stats - CPU: 87.9%, Memory: 87.6%, Network I/O: 1093.08KB/5258.36KB
+2025-03-04 23:33:04,715 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:04,715 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:04,715 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:04,716 - INFO - System stats - CPU: 83.4%, Memory: 88.8%, Network I/O: 1094.79KB/5259.52KB
+2025-03-04 23:33:09,721 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:09,721 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:09,721 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:09,722 - INFO - System stats - CPU: 79.1%, Memory: 88.7%, Network I/O: 1096.87KB/5294.91KB
+2025-03-04 23:33:12,370 - INFO - New OpenSSH connection from ('172.31.128.102', 59736)
+2025-03-04 23:33:12,373 - INFO - Closed OpenSSH connection from ('172.31.128.102', 59736)
+2025-03-04 23:33:12,375 - INFO - New OpenSSH connection from ('172.31.128.102', 59742)
+2025-03-04 23:33:12,376 - INFO - Closed OpenSSH connection from ('172.31.128.102', 59742)
+2025-03-04 23:33:12,378 - INFO - New OpenSSH connection from ('172.31.128.102', 59746)
+2025-03-04 23:33:12,378 - INFO - Closed OpenSSH connection from ('172.31.128.102', 59746)
+2025-03-04 23:33:12,380 - INFO - New OpenSSH connection from ('172.31.128.102', 59762)
+2025-03-04 23:33:12,381 - INFO - Closed OpenSSH connection from ('172.31.128.102', 59762)
+2025-03-04 23:33:14,725 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:14,725 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:14,725 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:14,726 - INFO - System stats - CPU: 75.9%, Memory: 88.7%, Network I/O: 1109.63KB/5307.17KB
+2025-03-04 23:33:19,731 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:19,732 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:19,732 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:19,732 - INFO - System stats - CPU: 80.3%, Memory: 88.7%, Network I/O: 1111.71KB/5342.61KB
+2025-03-04 23:33:24,737 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:24,738 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:24,738 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:24,741 - INFO - System stats - CPU: 83.6%, Memory: 88.5%, Network I/O: 1113.79KB/5378.00KB
+2025-03-04 23:33:29,747 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:29,747 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:29,747 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:29,747 - INFO - System stats - CPU: 83.3%, Memory: 88.6%, Network I/O: 1116.37KB/5379.35KB
+2025-03-04 23:33:34,752 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:34,753 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:34,753 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:34,753 - INFO - System stats - CPU: 78.8%, Memory: 89.4%, Network I/O: 1118.29KB/5380.86KB
+2025-03-04 23:33:39,758 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:39,758 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:39,758 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:39,759 - INFO - System stats - CPU: 88.5%, Memory: 89.9%, Network I/O: 1120.83KB/5382.26KB
+2025-03-04 23:33:44,765 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:44,765 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:44,765 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:44,766 - INFO - System stats - CPU: 84.2%, Memory: 90.1%, Network I/O: 1123.96KB/5418.98KB
+2025-03-04 23:33:49,773 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:49,774 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:49,774 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:49,776 - INFO - System stats - CPU: 74.7%, Memory: 89.6%, Network I/O: 1129.78KB/5422.31KB
+2025-03-04 23:33:54,781 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:54,782 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:54,782 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:54,782 - INFO - System stats - CPU: 82.5%, Memory: 90.1%, Network I/O: 1132.58KB/5457.77KB
+2025-03-04 23:33:59,788 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:33:59,788 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:33:59,788 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:33:59,789 - INFO - System stats - CPU: 79.5%, Memory: 90.3%, Network I/O: 1135.12KB/5459.08KB
+2025-03-04 23:34:04,796 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:04,796 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:04,796 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:04,797 - INFO - System stats - CPU: 80.2%, Memory: 90.9%, Network I/O: 1136.84KB/5460.32KB
+2025-03-04 23:34:09,803 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:09,803 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:09,803 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:09,804 - INFO - System stats - CPU: 67.3%, Memory: 90.9%, Network I/O: 1138.66KB/5461.65KB
+2025-03-04 23:34:14,809 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:14,809 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:14,809 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:14,810 - INFO - System stats - CPU: 71.7%, Memory: 90.9%, Network I/O: 1141.46KB/5497.03KB
+2025-03-04 23:34:15,092 - INFO - New OpenSSH connection from ('172.31.128.102', 52780)
+2025-03-04 23:34:15,094 - INFO - Closed OpenSSH connection from ('172.31.128.102', 52780)
+2025-03-04 23:34:15,107 - INFO - New OpenSSH connection from ('172.31.128.102', 52788)
+2025-03-04 23:34:15,113 - INFO - Closed OpenSSH connection from ('172.31.128.102', 52788)
+2025-03-04 23:34:15,120 - INFO - New OpenSSH connection from ('172.31.128.102', 52804)
+2025-03-04 23:34:15,132 - INFO - New OpenSSH connection from ('172.31.128.102', 52812)
+2025-03-04 23:34:15,133 - INFO - Closed OpenSSH connection from ('172.31.128.102', 52804)
+2025-03-04 23:34:15,137 - INFO - Closed OpenSSH connection from ('172.31.128.102', 52812)
+2025-03-04 23:34:19,816 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:19,816 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:19,816 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:19,817 - INFO - System stats - CPU: 84.8%, Memory: 91.5%, Network I/O: 1154.51KB/5543.43KB
+2025-03-04 23:34:24,822 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:24,822 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:24,822 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:24,823 - INFO - System stats - CPU: 88.5%, Memory: 93.3%, Network I/O: 1156.59KB/5578.90KB
+2025-03-04 23:34:29,831 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:29,831 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:29,831 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:29,832 - INFO - System stats - CPU: 85.9%, Memory: 94.0%, Network I/O: 1158.40KB/5580.22KB
+2025-03-04 23:34:34,837 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:34,837 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:34,837 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:34,838 - INFO - System stats - CPU: 78.3%, Memory: 92.8%, Network I/O: 1160.12KB/5581.39KB
+2025-03-04 23:34:39,845 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:39,845 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:39,845 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:39,845 - INFO - System stats - CPU: 63.4%, Memory: 92.5%, Network I/O: 1161.94KB/5582.71KB
+2025-03-04 23:34:44,851 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:44,851 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:44,851 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:44,851 - INFO - System stats - CPU: 77.5%, Memory: 91.9%, Network I/O: 1165.60KB/5585.29KB
+2025-03-04 23:34:49,856 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:49,856 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:49,856 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:49,857 - INFO - System stats - CPU: 61.2%, Memory: 91.9%, Network I/O: 1170.64KB/5588.53KB
+2025-03-04 23:34:54,862 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:54,862 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:54,862 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:54,864 - INFO - System stats - CPU: 83.3%, Memory: 92.5%, Network I/O: 1172.25KB/5589.59KB
+2025-03-04 23:34:59,869 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:34:59,869 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:34:59,869 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:34:59,870 - INFO - System stats - CPU: 78.1%, Memory: 92.7%, Network I/O: 1174.07KB/5590.92KB
+2025-03-04 23:35:04,875 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:04,875 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:04,875 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:04,876 - INFO - System stats - CPU: 82.4%, Memory: 92.8%, Network I/O: 1176.25KB/5626.41KB
+2025-03-04 23:35:09,881 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:09,881 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:09,881 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:09,882 - INFO - System stats - CPU: 81.7%, Memory: 92.7%, Network I/O: 1178.79KB/5627.72KB
+2025-03-04 23:35:14,887 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:14,887 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:14,887 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:14,888 - INFO - System stats - CPU: 71.2%, Memory: 93.0%, Network I/O: 1180.65KB/5629.09KB
+2025-03-04 23:35:16,635 - INFO - New OpenSSH connection from ('172.31.128.102', 54616)
+2025-03-04 23:35:16,635 - INFO - Closed OpenSSH connection from ('172.31.128.102', 54616)
+2025-03-04 23:35:16,637 - INFO - New OpenSSH connection from ('172.31.128.102', 54624)
+2025-03-04 23:35:16,638 - INFO - Closed OpenSSH connection from ('172.31.128.102', 54624)
+2025-03-04 23:35:16,639 - INFO - New OpenSSH connection from ('172.31.128.102', 54628)
+2025-03-04 23:35:16,640 - INFO - Closed OpenSSH connection from ('172.31.128.102', 54628)
+2025-03-04 23:35:16,641 - INFO - New OpenSSH connection from ('172.31.128.102', 54638)
+2025-03-04 23:35:16,642 - INFO - Closed OpenSSH connection from ('172.31.128.102', 54638)
+2025-03-04 23:35:19,891 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:19,892 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:19,892 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:19,893 - INFO - System stats - CPU: 72.3%, Memory: 93.1%, Network I/O: 1193.40KB/5641.35KB
+2025-03-04 23:35:24,898 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:24,899 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:24,900 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:24,900 - INFO - System stats - CPU: 74.4%, Memory: 92.1%, Network I/O: 1195.02KB/5642.41KB
+2025-03-04 23:35:29,905 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:29,906 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:29,906 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:29,906 - INFO - System stats - CPU: 55.0%, Memory: 91.5%, Network I/O: 1196.84KB/5643.74KB
+2025-03-04 23:35:34,911 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:34,912 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:34,912 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:34,912 - INFO - System stats - CPU: 44.0%, Memory: 90.9%, Network I/O: 1198.76KB/5645.17KB
+2025-03-04 23:35:39,917 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:39,917 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:39,917 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:39,917 - INFO - System stats - CPU: 75.5%, Memory: 91.2%, Network I/O: 1211.89KB/5647.79KB
+2025-03-04 23:35:44,923 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:44,923 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:44,923 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:44,923 - INFO - System stats - CPU: 86.9%, Memory: 90.2%, Network I/O: 1225.42KB/5651.75KB
+2025-03-04 23:35:49,928 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:49,929 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:49,929 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:49,930 - INFO - System stats - CPU: 73.5%, Memory: 90.4%, Network I/O: 1235.26KB/5655.72KB
+2025-03-04 23:35:54,935 - ERROR - Service down: <_SelectorDatagramTransport fd=20 read=polling write=<idle, bufsize=0>>
+2025-03-04 23:35:54,935 - ERROR - Service down: <grpc.aio._server.Server object at 0x7ffbaaec1d90>
+2025-03-04 23:35:54,935 - INFO - Service Status: SSHHandler: 4/5 active, V2RayHandler: 4/4 active, TrojanHandler: 2/3 active
+2025-03-04 23:35:54,936 - INFO - System stats - CPU: 68.3%, Memory: 90.7%, Network I/O: 1237.53KB/5691.24KB
