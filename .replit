@@ -1,0 +1,123 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Tunnel Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "User Management"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "HAProxy Server"
+
+[[workflows.workflow]]
+name = "Tunnel Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"
+waitForPort = 8447
+
+[[workflows.workflow]]
+name = "User Management"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py --manage-users"
+
+[[workflows.workflow]]
+name = "HAProxy Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash setup_haproxy.sh"
+waitForPort = 8080
+
+[deployment]
+run = ["sh", "-c", "python main.py"]
+
+[[ports]]
+localPort = 2222
+externalPort = 80
+
+[[ports]]
+localPort = 2244
+externalPort = 3002
+
+[[ports]]
+localPort = 8070
+externalPort = 8000
+
+[[ports]]
+localPort = 8071
+externalPort = 5173
+
+[[ports]]
+localPort = 8072
+externalPort = 8008
+
+[[ports]]
+localPort = 8073
+externalPort = 6000
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
+
+[[ports]]
+localPort = 8082
+externalPort = 3003
+
+[[ports]]
+localPort = 8443
+externalPort = 3000
+
+[[ports]]
+localPort = 8444
+externalPort = 5000
+
+[[ports]]
+localPort = 8445
+externalPort = 3001
+
+[[ports]]
+localPort = 8446
+externalPort = 4200
+
+[[ports]]
+localPort = 8447
+externalPort = 6800
